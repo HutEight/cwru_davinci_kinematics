@@ -459,8 +459,8 @@ int Inverse::ik_solve_frozen_refined(Eigen::Vector3d const& desired_tip_coordina
   if (jacobian_result == true)
   {
 //
-//    ROS_WARN("DEBUG: q_vec_frozen_ik_refined:");
-//    std::cout << q_vec_soln_frozon_ik_refined_ << std::endl;
+    ROS_WARN("DEBUG: q_vec_frozen_ik_refined:");
+    std::cout << q_vec_soln_frozon_ik_refined_ << std::endl;
 
     return 1;
   } else if (jacobian_result == false)

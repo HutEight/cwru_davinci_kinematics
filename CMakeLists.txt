@@ -94,6 +94,15 @@ target_link_libraries(davinci_fwd_fix_trial
   ${catkin_LIBRARIES}
 )
 
+add_executable(davinci_fwd_calculator examples/davinci_fwd_calculator.cpp)
+
+target_link_libraries(davinci_fwd_calculator
+  davinci_kinematics
+  davinci_kinematic_definitions
+  ${catkin_LIBRARIES}
+)
+
+
 
 file(GLOB_RECURSE SRC_FILES_CPP src/*.cpp)
 file(GLOB_RECURSE TEST_FILES_CPP test/*.cpp)
