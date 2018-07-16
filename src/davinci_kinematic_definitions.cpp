@@ -85,8 +85,8 @@ const double DH_a7 = 0.0;
 // const double DH_alpha1 =  1.5765; // RN 20180319PSM2A1
 //const double DH_alpha1 = 1.5672; // RN 20180618A2 PSM2
 // const double DH_alpha1 = -1.563553; // RN 20180712A1 PSM1
-//const double DH_alpha1 = M_PI/2.0; // RN Experimental/Original
-const double DH_alpha1 = -M_PI/2.0; // RN Experimental/New@1/3
+const double DH_alpha1 = M_PI/2.0; // RN Experimental/Original
+//const double DH_alpha1 = -M_PI/2.0; // RN Experimental/New@1/3
 
 
 
@@ -130,8 +130,8 @@ const double insertion_offset = 0.0156;
 
 //const double DH_q_offset0 = 0.0;
 // const double DH_q_offset0 = 3.141593; // RN 20180712A1 PSM1
-//const double DH_q_offset0 = 0.0; // RN 20180713 Experimental/Original
-const double DH_q_offset0 = M_PI; // RN 20180713 Experiental/New@2/3
+const double DH_q_offset0 = 0.0; // RN 20180713 Experimental/Original
+//const double DH_q_offset0 = M_PI; // RN 20180713 Experiental/New@2/3
 
 
 // const double DH_q_offset1 = M_PI/2.0;
@@ -144,8 +144,8 @@ const double DH_q_offset0 = M_PI; // RN 20180713 Experiental/New@2/3
 // const double DH_q_offset1 =  1.5854; // RN 20180618A1 PSM2
 //const double DH_q_offset1 =  1.5869; // RN 20180618A2 PSM2
 // const double DH_q_offset1 =  -1.574867; // RN 20180712A1 PSM1
-//const double DH_q_offset1 = M_PI/2.0; // RN 20180713 Experimental/Original
-const double DH_q_offset1 = -M_PI/2.0; // RN 20180713 Experimental/New@3/3
+const double DH_q_offset1 = M_PI/2.0; // RN 20180713 Experimental/Original
+//const double DH_q_offset1 = -M_PI/2.0; // RN 20180713 Experimental/New@3/3
 
 
 
