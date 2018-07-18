@@ -147,6 +147,7 @@ const double DH_q_offset0 = 0.0; // RN 20180713 Experimental/Original
 const double DH_q_offset1 = M_PI/2.0; // RN 20180713 Experimental/Original
 //const double DH_q_offset1 = -M_PI/2.0; // RN 20180713 Experimental/New@3/3
 
+    
 
 
 // erdem IK tested, sign is negative. q3 should be larger than abs(insertion_offset)
